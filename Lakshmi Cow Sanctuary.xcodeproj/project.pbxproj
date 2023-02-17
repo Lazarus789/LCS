@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350245BC299380C90050C7BE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350245BA299380C90050C7BE /* InfoViewController.swift */; };
+		350245C1299609940050C7BE /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350245C0299609940050C7BE /* PhotoViewController.swift */; };
+		350245C32996155C0050C7BE /* CustomPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350245C22996155C0050C7BE /* CustomPhotoCell.xib */; };
+		350245C5299615F90050C7BE /* CustomPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350245C4299615F90050C7BE /* CustomPhotoCell.swift */; };
+		350245C7299636660050C7BE /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350245C6299636660050C7BE /* StoryViewController.swift */; };
+		350245CA299638410050C7BE /* CustomStoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350245C8299638410050C7BE /* CustomStoryCell.swift */; };
+		350245CB299638410050C7BE /* CustomStoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350245C9299638410050C7BE /* CustomStoryCell.xib */; };
+		350245CD29989D440050C7BE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350245CC29989D440050C7BE /* MenuViewController.swift */; };
+		350245D22998B6E40050C7BE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350245D12998B6E40050C7BE /* WebViewController.swift */; };
+		3563E130298CC5DF00BE3672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3563E12F298CC5DF00BE3672 /* AppDelegate.swift */; };
+		3563E132298CC5DF00BE3672 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3563E131298CC5DF00BE3672 /* SceneDelegate.swift */; };
+		3563E134298CC5DF00BE3672 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3563E133298CC5DF00BE3672 /* ViewController.swift */; };
+		3563E137298CC5DF00BE3672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3563E135298CC5DF00BE3672 /* Main.storyboard */; };
+		3563E139298CC5E300BE3672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3563E138298CC5E300BE3672 /* Assets.xcassets */; };
+		3563E13C298CC5E300BE3672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3563E13A298CC5E300BE3672 /* LaunchScreen.storyboard */; };
+		35E54C15298F7D6D006E759A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E54C14298F7D6D006E759A /* CustomTableViewCell.swift */; };
+		35E54C17298F8521006E759A /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35E54C16298F8521006E759A /* CustomTableViewCell.xib */; };
+		35E54C192990BD58006E759A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E54C182990BD58006E759A /* Constants.swift */; };
+		35E54C1C2990BF74006E759A /* LCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E54C1B2990BF74006E759A /* LCS.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		350245BA299380C90050C7BE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		350245C0299609940050C7BE /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		350245C22996155C0050C7BE /* CustomPhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPhotoCell.xib; sourceTree = "<group>"; };
+		350245C4299615F90050C7BE /* CustomPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPhotoCell.swift; sourceTree = "<group>"; };
+		350245C6299636660050C7BE /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		350245C8299638410050C7BE /* CustomStoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStoryCell.swift; sourceTree = "<group>"; };
+		350245C9299638410050C7BE /* CustomStoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomStoryCell.xib; sourceTree = "<group>"; };
+		350245CC29989D440050C7BE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		350245D12998B6E40050C7BE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3563E12C298CC5DF00BE3672 /* Lakshmi Cow Sanctuary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lakshmi Cow Sanctuary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3563E12F298CC5DF00BE3672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3563E131298CC5DF00BE3672 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3563E133298CC5DF00BE3672 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3563E136298CC5DF00BE3672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3563E138298CC5E300BE3672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3563E13B298CC5E300BE3672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3563E13D298CC5E300BE3672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E54C14298F7D6D006E759A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		35E54C16298F8521006E759A /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		35E54C182990BD58006E759A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		35E54C1B2990BF74006E759A /* LCS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3563E129298CC5DF00BE3672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3563E123298CC5DF00BE3672 = {
+			isa = PBXGroup;
+			children = (
+				3563E12E298CC5DF00BE3672 /* Lakshmi Cow Sanctuary */,
+				3563E12D298CC5DF00BE3672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3563E12D298CC5DF00BE3672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3563E12C298CC5DF00BE3672 /* Lakshmi Cow Sanctuary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3563E12E298CC5DF00BE3672 /* Lakshmi Cow Sanctuary */ = {
+			isa = PBXGroup;
+			children = (
+				3563E12F298CC5DF00BE3672 /* AppDelegate.swift */,
+				3563E131298CC5DF00BE3672 /* SceneDelegate.swift */,
+				35E54C1A2990BF37006E759A /* Model */,
+				3563E145298E200B00BE3672 /* Controller */,
+				3563E146298E201600BE3672 /* View */,
+				3563E138298CC5E300BE3672 /* Assets.xcassets */,
+				3563E13D298CC5E300BE3672 /* Info.plist */,
+				35E54C182990BD58006E759A /* Constants.swift */,
+			);
+			path = "Lakshmi Cow Sanctuary";
+			sourceTree = "<group>";
+		};
+		3563E145298E200B00BE3672 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3563E133298CC5DF00BE3672 /* ViewController.swift */,
+				350245CC29989D440050C7BE /* MenuViewController.swift */,
+				350245D12998B6E40050C7BE /* WebViewController.swift */,
+				350245BA299380C90050C7BE /* InfoViewController.swift */,
+				350245C0299609940050C7BE /* PhotoViewController.swift */,
+				350245C6299636660050C7BE /* StoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3563E146298E201600BE3672 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3563E135298CC5DF00BE3672 /* Main.storyboard */,
+				3563E13A298CC5E300BE3672 /* LaunchScreen.storyboard */,
+				35E54C16298F8521006E759A /* CustomTableViewCell.xib */,
+				35E54C14298F7D6D006E759A /* CustomTableViewCell.swift */,
+				350245C22996155C0050C7BE /* CustomPhotoCell.xib */,
+				350245C4299615F90050C7BE /* CustomPhotoCell.swift */,
+				350245C9299638410050C7BE /* CustomStoryCell.xib */,
+				350245C8299638410050C7BE /* CustomStoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35E54C1A2990BF37006E759A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35E54C1B2990BF74006E759A /* LCS.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3563E12B298CC5DF00BE3672 /* Lakshmi Cow Sanctuary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3563E140298CC5E300BE3672 /* Build configuration list for PBXNativeTarget "Lakshmi Cow Sanctuary" */;
+			buildPhases = (
+				3563E128298CC5DF00BE3672 /* Sources */,
+				3563E129298CC5DF00BE3672 /* Frameworks */,
+				3563E12A298CC5DF00BE3672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lakshmi Cow Sanctuary";
+			productName = "Lakshmi Cow Sanctuary";
+			productReference = 3563E12C298CC5DF00BE3672 /* Lakshmi Cow Sanctuary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3563E124298CC5DF00BE3672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3563E12B298CC5DF00BE3672 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 3563E127298CC5DF00BE3672 /* Build configuration list for PBXProject "Lakshmi Cow Sanctuary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3563E123298CC5DF00BE3672;
+			productRefGroup = 3563E12D298CC5DF00BE3672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3563E12B298CC5DF00BE3672 /* Lakshmi Cow Sanctuary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3563E12A298CC5DF00BE3672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350245CB299638410050C7BE /* CustomStoryCell.xib in Resources */,
+				3563E13C298CC5E300BE3672 /* LaunchScreen.storyboard in Resources */,
+				3563E139298CC5E300BE3672 /* Assets.xcassets in Resources */,
+				35E54C17298F8521006E759A /* CustomTableViewCell.xib in Resources */,
+				350245C32996155C0050C7BE /* CustomPhotoCell.xib in Resources */,
+				3563E137298CC5DF00BE3672 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3563E128298CC5DF00BE3672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350245C7299636660050C7BE /* StoryViewController.swift in Sources */,
+				35E54C192990BD58006E759A /* Constants.swift in Sources */,
+				3563E134298CC5DF00BE3672 /* ViewController.swift in Sources */,
+				3563E130298CC5DF00BE3672 /* AppDelegate.swift in Sources */,
+				350245BC299380C90050C7BE /* InfoViewController.swift in Sources */,
+				350245C1299609940050C7BE /* PhotoViewController.swift in Sources */,
+				35E54C15298F7D6D006E759A /* CustomTableViewCell.swift in Sources */,
+				350245CD29989D440050C7BE /* MenuViewController.swift in Sources */,
+				35E54C1C2990BF74006E759A /* LCS.swift in Sources */,
+				350245C5299615F90050C7BE /* CustomPhotoCell.swift in Sources */,
+				3563E132298CC5DF00BE3672 /* SceneDelegate.swift in Sources */,
+				350245D22998B6E40050C7BE /* WebViewController.swift in Sources */,
+				350245CA299638410050C7BE /* CustomStoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3563E135298CC5DF00BE3672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3563E136298CC5DF00BE3672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3563E13A298CC5E300BE3672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3563E13B298CC5E300BE3672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3563E13E298CC5E300BE3672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3563E13F298CC5E300BE3672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3563E141298CC5E300BE3672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24J34832JT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lakshmi Cow Sanctuary/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lakshmi Cow Sanctuary";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.babbartanishq.Lakshmi-Cow-Sanctuary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3563E142298CC5E300BE3672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24J34832JT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lakshmi Cow Sanctuary/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lakshmi Cow Sanctuary";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.babbartanishq.Lakshmi-Cow-Sanctuary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3563E127298CC5DF00BE3672 /* Build configuration list for PBXProject "Lakshmi Cow Sanctuary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3563E13E298CC5E300BE3672 /* Debug */,
+				3563E13F298CC5E300BE3672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3563E140298CC5E300BE3672 /* Build configuration list for PBXNativeTarget "Lakshmi Cow Sanctuary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3563E141298CC5E300BE3672 /* Debug */,
+				3563E142298CC5E300BE3672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3563E124298CC5DF00BE3672 /* Project object */;
+}
