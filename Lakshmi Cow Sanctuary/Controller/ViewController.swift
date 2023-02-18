@@ -12,6 +12,16 @@ class ViewController: UIViewController, DataDelegate {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var toolbar: UIToolbar!
     
+    @IBOutlet weak var phone: UIBarButtonItem!
+    let flexibleSpace1 = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+    @IBOutlet weak var mail: UIBarButtonItem!
+    let flexibleSpace2 = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+    @IBOutlet weak var site: UIBarButtonItem!
+    let flexibleSpace3 = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+    @IBOutlet weak var loc: UIBarButtonItem!
+    let flexibleSpace4 = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+    @IBOutlet weak var facebook: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,6 +30,15 @@ class ViewController: UIViewController, DataDelegate {
         
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
 //        NotificationCenter.default.addObserver(self, selector: #selector(deviceOrientationDidChange), name: UIDevice.orientationDidChangeNotification, object: nil)
+        
+        toolbar.items = [phone,flexibleSpace1,mail,flexibleSpace2,site,flexibleSpace3,loc,flexibleSpace4,facebook]
+//        view.addSubview(toolbar)
+//
+//        toolbar.translatesAutoresizingMaskIntoConstraints = false
+//        toolbar.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+//        toolbar.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+//        toolbar.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        toolbar.heightAnchor.constraint(equalToConstant: 44).isActive = true
         
     }
     

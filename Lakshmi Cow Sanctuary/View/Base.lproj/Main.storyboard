@@ -101,6 +101,11 @@
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="facebook" destination="b69-TQ-6Ku" id="b6v-LA-d9r"/>
+                        <outlet property="loc" destination="YCs-fd-uZg" id="xkt-Cm-3SI"/>
+                        <outlet property="mail" destination="vKI-Iy-jaP" id="fF8-gg-cfq"/>
+                        <outlet property="phone" destination="Cf2-9f-39s" id="4eY-PN-h5C"/>
+                        <outlet property="site" destination="dfZ-Am-aXz" id="Psm-Rl-igi"/>
                         <outlet property="tableView" destination="WVK-d0-wXQ" id="8D3-ih-SSE"/>
                         <outlet property="toolbar" destination="agj-2k-daJ" id="yhA-wU-wtD"/>
                         <segue destination="9hE-FC-hj0" kind="show" identifier="lcsSegue" id="GTh-YH-cIZ"/>
