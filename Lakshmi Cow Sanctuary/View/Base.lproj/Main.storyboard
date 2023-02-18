@@ -52,12 +52,12 @@
                                             <action selector="phoneButtonPressed:" destination="3E8-qH-OFN" id="l8T-ZE-hJG"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Item" image="mail.fill" catalog="system" width="78.599999999999994" id="vKI-Iy-jaP">
+                                    <barButtonItem title="Item" image="square.and.pencil" catalog="system" width="78.599999999999994" id="vKI-Iy-jaP">
                                         <connections>
                                             <action selector="mailButtonPressed:" destination="3E8-qH-OFN" id="XPN-cf-tCg"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Item" image="laptopcomputer" catalog="system" width="78.599999999999994" id="dfZ-Am-aXz">
+                                    <barButtonItem title="Item" image="desktopcomputer" catalog="system" width="78.599999999999994" id="dfZ-Am-aXz">
                                         <connections>
                                             <action selector="webButtonPressed:" destination="3E8-qH-OFN" id="WDD-jB-l0z"/>
                                         </connections>
@@ -90,7 +90,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="LCS Home" id="OCc-1N-6kg">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="line.3.horizontal" catalog="system" id="Pw5-dR-oyQ">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="circle.grid.3x3.fill" catalog="system" id="Pw5-dR-oyQ">
                             <color key="tintColor" systemColor="systemBackgroundColor"/>
                             <connections>
                                 <segue destination="mQb-gV-QGd" kind="popoverPresentation" popoverAnchorBarButtonItem="Pw5-dR-oyQ" id="kPV-Yb-11d">
@@ -182,7 +182,7 @@
                                     <constraint firstAttribute="height" constant="147" id="QbR-Ct-lli"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPG-Zj-aQ9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPG-Zj-aQ9">
                                 <rect key="frame" x="16" y="258" width="361" height="594"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -275,12 +275,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="laptopcomputer" catalog="system" width="128" height="71"/>
-        <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
+        <image name="circle.grid.3x3.fill" catalog="system" width="128" height="111"/>
+        <image name="desktopcomputer" catalog="system" width="128" height="101"/>
         <image name="location.fill" catalog="system" width="128" height="119"/>
-        <image name="mail.fill" catalog="system" width="128" height="93"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="phone.fill" catalog="system" width="128" height="114"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -37,8 +37,10 @@ class CustomTableViewCell: UITableViewCell {
         rightImageView.layer.borderWidth = 1
         leftImageView.layer.borderColor = UIColor.black.cgColor
         rightImageView.layer.borderColor = UIColor.black.cgColor
-        leftImageView.layer.cornerRadius = 10
-        rightImageView.layer.cornerRadius = 10
+//        leftImageView.layer.cornerRadius = 10
+//        rightImageView.layer.cornerRadius = 10
+//        leftButton.layer.cornerRadius = 10
+//        rightButton.layer.cornerRadius = 10
         
     }
     
